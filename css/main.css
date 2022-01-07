@@ -1773,7 +1773,9 @@ margin-left: 10px;
 }
 .video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body .video .play{
     position: absolute;
-
+    z-index: 999;
+    width: 100px;
+    height: 100px;
 }
 .video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body img{
     width: 100%;
