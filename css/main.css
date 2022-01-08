@@ -73,11 +73,20 @@ body{
 }
 
 /********************Menus*********************/
-
+.container-fluid{
+    position: relative;
+}
 .container-fluid .menus{
     width: 100%;
     background: #535C6D;
     height: 60px;
+}
+.container-fluid .menus.active{
+    position: fixed;
+    background: rgba(27, 96, 225, 0.8);
+    top: 0;
+    z-index: 999;
+    transition: 1s linear;
 }
 .container-fluid .menus .container{
     width: 100%;
@@ -147,8 +156,8 @@ body{
 .container-fluid .main .main-text{
     width: 462px;
     position: absolute;
-    top: 129px;
-    left: 180px;
+    top: 198px;
+    left: 407px;
 }
 .container-fluid .main .main-text h5{
     font-family: Comfortaa;
@@ -1809,3 +1818,234 @@ margin-left: 10px;
     margin-top: 10px;
 }
 /****************Видеогалерия-end********************/
+
+
+
+
+/****************contact********************/
+.contact{
+    padding: 0;
+    margin: 0;
+}
+.contact .container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.contact .container-fluid .body{
+    position: relative;
+}
+.contact .container-fluid .body .body-content{
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+.contact .container-fluid .body .body-text p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596A;
+    position: absolute;
+    top: 198px;
+    left: 260px;
+    width: 500px;
+}
+.contact .container-fluid .address {
+    width: 100%;
+    height: 100%;
+}
+.contact .container-fluid .address .container .row{
+    padding: 15px 0;
+    width: 100%;
+    margin: 0;
+}
+.row .col-5 .card{
+    border: 0;
+    margin-top: 50px;
+}
+.row .col-5 .card .card-body{
+    padding: 0;
+}
+.row .col-5 .card .card-body .addres-email{
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+
+}
+.row .col-5 .card .card-body .addres-email .navigation{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.row .col-5 .card .card-body .addres-email .navigation .navi-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #535C6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row .col-5 .card .card-body .addres-email .navigation .navi-photo img{
+    width: 18px;
+}
+.row .col-5 .card .card-body .addres-email .navigation .navigation-title{
+    padding: 0 20px;
+}
+.row .col-5 .card .card-body .addres-email .navigation .navigation-title h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 151.4%;
+    text-transform: capitalize;
+    color: #2A3243;
+    margin-bottom: 0;
+}
+.row .col-5 .card .card-body .addres-email .navigation .navigation-title p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 136.4%;
+    text-transform: lowercase;
+    color: #51596A;
+    width: 205px;
+}
+.row .col-5 .card .card-body .addres-email .pochta{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.row .col-5 .card .card-body .addres-email .pochta .pochta-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #535C6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row .col-5 .card .card-body .addres-email .pochta .pochta-photo img{
+    width: 18px;
+}
+.row .col-5 .card .card-body .addres-email .pochta .pochta-title{
+    padding: 0 20px;
+}
+.row .col-5 .card .card-body .addres-email .pochta .pochta-title h5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 151.4%;
+    text-transform: capitalize;
+    color: #2A3243;
+    margin-bottom: 0;
+}
+.row .col-5 .card .card-body .addres-email .pochta .pochta-title p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 136.4%;
+    text-transform: lowercase;
+    color: #51596A;
+    width: 205px;
+}
+.row .col-5 .card .card-body .addres-email .phone{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.row .col-5 .card .card-body .addres-email .phone .phone-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #535C6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row .col-5 .card .card-body .addres-email .phone .phone-photo img{
+    width: 18px;
+}
+.row .col-5 .card .card-body .addres-email .phone .phone-title{
+    padding: 0 20px;
+}
+.row .col-5 .card .card-body .addres-email .phone .phone-title h5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 151.4%;
+    text-transform: capitalize;
+    color: #2A3243;
+    margin-bottom: 0;
+}
+.row .col-5 .card .card-body .addres-email .phone .phone-title a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 136.4%;
+    text-transform: lowercase;
+    color: #51596A;
+    /*width: 253px;*/
+    padding: 0;
+}
+.row .col-5 .card .card-body .registr{
+    background: #FFFFFF;
+    box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 25px 60 px;
+}
+.row .col-5 .card .card-body .registr input{
+    border: -1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.row .col-5 .card .card-body .registr textarea{
+    border: -1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.row .col-5 .card .card-body .registr button{
+    border-radius: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    width: 130px;
+    line-height: 151.4%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.row .col-7 .card{
+    border: 0;
+    width: 100%;
+    margin-top: 50px;
+
+}
+.col-7 .card .card-body{
+    width: 100%;
+    padding: 0;
+}
+.col-7 .card .card-body img{
+    width: 100%;
+    /*height: 100%;*/
+    height: 784px;
+}
+/****************contact-end********************/
+

@@ -8,6 +8,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
 
@@ -21,8 +22,8 @@
                         <h4>Бандлик бош бошқармаси</h4>
                     </div>
                 </div>
-                <button type="button" class="btn d-none"><img src="assets/icons/menus.svg" alt="error"></button>
-                <ul class="nav align-items-center">
+                <button type="button" class="btn d-none" id="btn-menu"><img src="assets/icons/menus.svg" alt="error"></button>
+                <ul class="nav align-items-center" id="nav-menu">
                     <li class="nav-item"><a href="#" class="nav-link"><img src="assets/icons/miniphone.svg" alt="error"></a></li>
                     <li class="nav-item"><a href="#" class="nav-link"><img src="assets/icons/gless.svg" alt="error"></a></li>
                     <li class="nav-item"><a href="#" class="nav-link">o‘zb</a></li>
@@ -32,16 +33,16 @@
             </div>
         </div>
 <!--        desktop-->
-        <div class="menus">
+        <div class="menus" id="scroll">
            <div class="container">
                <ul class="nav">
                    <li class="nav-item"><a href="#" class="nav-link">Бошқарма</a>
                     <ul class="nav">
-                        <li class="nav-item"><a href="#" class="nav-link">Бошқарма ҳақида</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Раҳбарият</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Ҳодимлар</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Бошқарма тузилмаси</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Фаолият йўналишлари</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/management.html')">Бошқарма ҳақида</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/activity.html')">Фаолият йўналишлари</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/leadership.html')">Раҳбарият</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/employees.html')">Ҳодимлар</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link" onclick="locatt('/information.html')">очиқ маълумотлар</a></li>
                     </ul>
                    </li>
                    <li class="nav-item"><a href="#" class="nav-link">Ҳудудий бўлимлар</a>
@@ -90,7 +91,7 @@
            </div>
         </div>
 <!--        mobile-->
-        <div class="submenus">
+        <div class="submenus" id="nav">
             <ul class="nav">
                 <li class="nav-item"><a href="#" class="nav-link">Бошқарма</a>
                     <ul class="nav">
@@ -148,6 +149,7 @@
 
         <div class="main">
             <div class="main-content"></div>
+
             <div class="main-text">
                 <h5>Қашқадарё вилояти Бандлик</h5>
                 <h4>бош бошқармаси</h4>
@@ -187,32 +189,7 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="card">
-                            <div class="card-body"  data-aos="zoom-out-left" data-aos-delay="100" data-duration="1000">
-                                <div class="skills-photo"></div>
-                                <div class="skills-info">
-                                    <div class="skills-contact d-flex align-items-center">
-                                        <h4>Қарши</h4>
-                                        <h5>шаҳри</h5>
-                                    </div>
-                                    <div class="people-name">
-                                        <img src="assets/icons/skelet.svg" alt="error">
-                                        <p>Узаков Дилшод Серабович</p>
-                                    </div>
-                                    <div class="navigation d-flex align-items-center">
-                                        <img src="assets/icons/navi.svg" alt="error">
-                                        <p>Қашқадарё вилояти, Қарши шаҳри, Хонобод кўчаси, 46 уй</p>
-                                    </div>
-                                    <div class="people-tel d-flex align-items-center">
-                                        <img src="assets/icons/phone.svg" alt="error">
-                                        <p>+99897 311-85-15</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="card">
+                        <div class="card"  data-aos="zoom-out-left" data-aos-delay="100" data-duration="1000">
                             <div class="card-body">
                                 <div class="skills-photo"></div>
                                 <div class="skills-info">
@@ -237,7 +214,32 @@
                         </div>
                     </div>
                     <div class="col-6">
-                        <div class="card">
+                        <div class="card"  data-aos="zoom-out-right" data-aos-delay="100" data-duration="1000">
+                            <div class="card-body">
+                                <div class="skills-photo"></div>
+                                <div class="skills-info">
+                                    <div class="skills-contact d-flex align-items-center">
+                                        <h4>Қарши</h4>
+                                        <h5>шаҳри</h5>
+                                    </div>
+                                    <div class="people-name">
+                                        <img src="assets/icons/skelet.svg" alt="error">
+                                        <p>Узаков Дилшод Серабович</p>
+                                    </div>
+                                    <div class="navigation d-flex align-items-center">
+                                        <img src="assets/icons/navi.svg" alt="error">
+                                        <p>Қашқадарё вилояти, Қарши шаҳри, Хонобод кўчаси, 46 уй</p>
+                                    </div>
+                                    <div class="people-tel d-flex align-items-center">
+                                        <img src="assets/icons/phone.svg" alt="error">
+                                        <p>+99897 311-85-15</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card"  data-aos="zoom-out-left" data-aos-delay="100" data-duration="1000">
                             <div class="card-body">
                                 <div class="skills-photo"></div>
                                 <div class="skills-info">
@@ -275,11 +277,11 @@
                </div>
                <div class="row">
                    <div class="col-7">
-                       <img src="assets/images/new.svg" alt="error">
+                       <img src="assets/images/new.svg" alt="error" data-aos="zoom-out-right" data-aos-delay="100" data-duration="1000">
                    </div>
                    <div class="col-5">
-                       <img src="assets/images/mini.svg" alt="error">
-                       <img src="assets/images/team.svg" alt="error" class="team">
+                       <img src="assets/images/mini.svg" alt="error"  data-aos="zoom-out-left" data-aos-delay="100" data-duration="1000">
+                       <img src="assets/images/team.svg" alt="error" class="team"  data-aos="zoom-out-left" data-aos-delay="100" data-duration="1000">
                    </div>
                </div>
                <div class="news-next d-flex align-items-center">
@@ -295,7 +297,7 @@
                 </div>
                 <div class="row">
                     <div class="col-4">
-                        <div class="card">
+                        <div class="card" data-aos="zoom-out-right" data-aos-delay="100" data-duration="1000">
                             <div class="card-header">
                                 <img src="assets/icons/moni.svg" alt="error">
                             </div>
@@ -319,7 +321,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="card">
+                        <div class="card" data-aos="zoom-out-up" data-aos-delay="100" data-duration="1000">
                             <div class="card-header">
                                 <img src="assets/icons/koica.svg" alt="error" style="width: 150px">
                             </div>
@@ -343,7 +345,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="card">
+                        <div class="card" data-aos="zoom-out-left" data-aos-delay="100" data-duration="1000">
                             <div class="card-header">
                                 <img src="assets/icons/gerb.svg" alt="error">
                             </div>
@@ -457,6 +459,6 @@
     <script>
         AOS.init();
     </script>
-
+    <script src="js/main.js"></script>
 </body>
 </html>
