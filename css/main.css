@@ -686,6 +686,7 @@ body{
 }
 .profession .container-fluid .body{
     position: relative;
+
 }
 .profession .container-fluid .body .body-content{
     width: 100%;
@@ -706,12 +707,15 @@ body{
     color: #51596A;
     position: absolute;
     top: 198px;
-    left: 260px;
+    left: 417px;
 }
 .profession .container-fluid .skills .row{
     width: 100%;
     margin: 128px 0;
 
+}
+.profession .container-fluid .skills .row .col-4{
+    margin: 100px 0 50px;
 }
 .profession .container-fluid .skills .row .col-4 .card{
     mix-blend-mode: normal;
@@ -720,6 +724,7 @@ body{
     width: 100%;
     height: 100%;
     padding: 5px;
+    /*margin-top: 100px;*/
 }
 .profession .container-fluid .skills .row .col-4 .card .card-header{
     background: #ffffff;
@@ -1853,7 +1858,7 @@ margin-left: 10px;
     color: #51596A;
     position: absolute;
     top: 198px;
-    left: 260px;
+    left: 417px;
     width: 500px;
 }
 .contact .container-fluid .address {
@@ -2006,7 +2011,7 @@ margin-left: 10px;
     background: #FFFFFF;
     box-shadow: 3px 3px 16px rgba(0, 0, 0, 0.2);
     border-radius: 16px;
-    padding: 25px 60 px;
+    padding: 25px 60px;
 }
 .row .col-5 .card .card-body .registr input{
     border: -1px solid rgba(0, 0, 0, 0.3);
@@ -2048,4 +2053,128 @@ margin-left: 10px;
     height: 784px;
 }
 /****************contact-end********************/
+/****************City********************/
+
+.city{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.cyti .container-fluid{
+    padding: 0;
+    margin: 0;
+}
+.city .container-fluid .body{
+    position: relative;
+}
+.city .container-fluid .body .body-content{
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+}
+.city .container-fluid .body .body-text p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 139.9%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #51596A;
+    position: absolute;
+    top: 198px;
+    left: 400px;
+    width: 500px;
+}
+.city .container-fluid .container .body-title  p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 139.9%;
+    text-transform: capitalize;
+    color: #51596A;
+    margin-top: 50px;
+}
+.city .container-fluid .city-map .container .card{
+    border: 0;
+}
+.city .container-fluid .city-map .container .card .card-body{
+    padding: 0;
+    display: flex;
+}
+.city .container-fluid .city-map .container .card .card-body .ABKM{
+    width: 40%;
+}
+.city .container-fluid .city-map .container .card .card-body .ABKM h5{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 139.9%;
+    text-transform: capitalize;
+    color: #51596A;
+    margin-bottom: 50px;
+}
+.city .container-fluid .city-map .container .card .card-body .ABKM .people-name img{
+    width: 20px;
+    height: 20px;
+}
+.city .container-fluid .city-map .container .card .card-body .ABKM .people-name p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #51596A;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+.city .container-fluid .city-map .container .card .card-body .ABKM .navigation img{
+    width: 20px;
+    height: 20px;
+}
+.city .container-fluid .city-map .container .card .card-body .ABKM .navigation p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #51596A;
+    margin-bottom: 0;
+    margin-left: 20px;
+    width: 256px;
+}
+.city .container-fluid .city-map .container .card .card-body .ABKM .people-tel img{
+    width: 20px;
+    height: 20px;
+}
+.city .container-fluid .city-map .container .card .card-body .ABKM .people-tel a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 139.9%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #51596A;
+    margin-bottom: 0;
+    margin-left: 3px;
+}
+.city .container-fluid .city-map .container .card .card-body .city-map{
+    width: 60%;
+}
+.city .container-fluid .city-map .container .card .card-body .city-map img{
+    width: 100%;
+    height: 100%;
+}
+/****************city-end********************/
 
