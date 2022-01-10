@@ -560,7 +560,7 @@ body{
     color: #FFFFFF;
     width: 100%;
 }
-.container-fluid .footer .container .row .col-4 .card .card-body h5{
+.container-fluid .footer .container .row .col-4 .card .card-body a{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -569,7 +569,7 @@ body{
     text-transform: capitalize;
     color: #FFFFFF;
 }
-.container-fluid .footer .container .row .col-4 .card .card-body h6{
+.container-fluid .footer .container .row .col-4 .card .card-body a{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
