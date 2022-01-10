@@ -51,4 +51,10 @@ function menubar() {
 }
 
 
-
+function loc(text2) {
+    console.log(text2);
+    if (text2) {
+        location.assign(text2)
+    }
+}
+// ;console.log(locate);
