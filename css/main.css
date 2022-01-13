@@ -234,7 +234,7 @@ body{
 }
 .container-fluid .skills .container .row .col-6 .card .card-body{
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
     padding: 5px;
 }
 .container-fluid .skills .container .row .col-6 .card .card-body .skills-photo{
@@ -2099,17 +2099,17 @@ margin-left: 10px;
     color: #51596A;
     margin-top: 50px;
 }
-.city .container-fluid .city-map .container .card{
+.city .container-fluid .city-maps .container .card{
     border: 0;
 }
-.city .container-fluid .city-map .container .card .card-body{
+.city .container-fluid .city-maps .container .card .card-body{
     padding: 0;
     display: flex;
 }
-.city .container-fluid .city-map .container .card .card-body .ABKM{
+.city .container-fluid .city-maps .container .card .card-body .ABKM{
     width: 40%;
 }
-.city .container-fluid .city-map .container .card .card-body .ABKM h5{
+.city .container-fluid .city-maps .container .card .card-body .ABKM h5{
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -2119,11 +2119,11 @@ margin-left: 10px;
     color: #51596A;
     margin-bottom: 50px;
 }
-.city .container-fluid .city-map .container .card .card-body .ABKM .people-name img{
+.city .container-fluid .city-maps .container .card .card-body .ABKM .people-name img{
     width: 20px;
     height: 20px;
 }
-.city .container-fluid .city-map .container .card .card-body .ABKM .people-name p{
+.city .container-fluid .city-maps .container .card .card-body .ABKM .people-name p{
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -2135,11 +2135,11 @@ margin-left: 10px;
     margin-bottom: 0;
     margin-left: 20px;
 }
-.city .container-fluid .city-map .container .card .card-body .ABKM .navigation img{
+.city .container-fluid .city-maps .container .card .card-body .ABKM .navigation img{
     width: 20px;
     height: 20px;
 }
-.city .container-fluid .city-map .container .card .card-body .ABKM .navigation p{
+.city .container-fluid .city-maps .container .card .card-body .ABKM .navigation p{
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -2152,11 +2152,11 @@ margin-left: 10px;
     margin-left: 20px;
     width: 256px;
 }
-.city .container-fluid .city-map .container .card .card-body .ABKM .people-tel img{
+.city .container-fluid .city-maps .container .card .card-body .ABKM .people-tel img{
     width: 20px;
     height: 20px;
 }
-.city .container-fluid .city-map .container .card .card-body .ABKM .people-tel a{
+.city .container-fluid .city-maps .container .card .card-body .ABKM .people-tel a{
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -2168,27 +2168,36 @@ margin-left: 10px;
     margin-bottom: 0;
     margin-left: 3px;
 }
-.city .container-fluid .city-map .container .card .card-body .city-map{
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+ .map{
+    width: 400px;
+    height: 600px;
 }
-.city .container-fluid .city-map .container .card .card-body .city-map img{
-    width: 100%;
-    /*height: 100%;*/
-}
-.city-map .card-net{
+/*.city .container-fluid .city-maps .container .card .card-body .map{*/
+/*    width: 60%;*/
+/*    !*display: flex;*!*/
+/*    height: 600px;*/
+/*    !*align-items: center;*!*/
+/*    !*justify-content: center;*!*/
+/*    !*position: relative;*!*/
+/*}*/
+/*.city .container-fluid .city-maps .container .card .card-body .map{*/
+/*    height: 600px;*/
+/*}*/
+/*.city .container-fluid .city-maps .container .card .card-body .city-map img{*/
+/*    width: 100%;*/
+/*    !*height: 100%;*!*/
+
+/*}*/
+.map .card-net{
     position: absolute;
     top: 20px;
     left: 30px;
 }
-.city-map .card-net .input-group{
+.map .card-net .input-group{
     position: relative;
     width: 360px;
 }
-.city-map .card-net .input-group .GPS{
+.map .card-net .input-group .GPS{
      width: 40px;
      height: 38px;
      background: #FFFFFF;

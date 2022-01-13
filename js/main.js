@@ -58,3 +58,11 @@ function loc(text2) {
     }
 }
 // ;console.log(locate);
+
+ymaps.ready(init)
+function init() {
+    let map = new ymaps.Map('map', {
+        center: [38.8494135289684, 65.2688775291336],
+        zoom: 15
+    });
+}
