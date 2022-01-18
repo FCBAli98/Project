@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/mobil.css">
 </head>
 <body>
 <div class="employees">
@@ -21,16 +22,13 @@
                         <h4>Бандлик бош бошқармаси</h4>
                     </div>
                 </div>
-                <button type="button" class="btn d-none"><img src="../assets/icons/menus.svg" alt="error"></button>
-                <ul class="nav align-items-center">
-                    <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/miniphone.svg"
-                                                                           alt="error"></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/gless.svg" alt="error"></a>
-                    </li>
+                <button type="button" class="btn d-none" id="btn-menu"><img src="../assets/icons/menus.svg" alt="error"></button>
+                <ul class="nav align-items-center" id="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/miniphone.svg" alt="error"></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/gless.svg" alt="error"></a></li>
                     <li class="nav-item"><a href="#" class="nav-link">o‘zb</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">ўзб</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/lupa.svg"
-                                                                           alt="error"></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><img src="../assets/icons/lupa.svg" alt="error"></a></li>
                 </ul>
             </div>
         </div>
@@ -94,9 +92,9 @@
         </div>
         <!--        mobile-->
         <div class="submenus" id="nav">
-            <ul class="nav">
-                <li class="nav-item"><a href="#" class="nav-link">Бошқарма</a>
-                    <ul class="nav">
+            <ul class="nav w-100">
+                <li class="nav-item"><a href="#demo" data-toggle="collapse" class="nav-link">Бошқарма</a>
+                    <ul class="nav collapse flex-sm-column" id="demo">
                         <li class="nav-item"><a href="#" class="nav-link" onclick="loc('management.html')">Бошқарма ҳақида</a></li>
                         <li class="nav-item"><a href="#" class="nav-link" onclick="loc('activity.html')">Фаолият йўналишлари</a></li>
                         <li class="nav-item"><a href="#" class="nav-link" onclick="loc('leadership.html')">Раҳбарият</a></li>
@@ -104,8 +102,8 @@
                         <li class="nav-item"><a href="#" class="nav-link" onclick="loc('information.html')">очиқ маълумотлар</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link">Ҳудудий бўлимлар</a>
-                    <ul class="nav">
+                <li class="nav-item"><a href="#demo1" data-toggle="collapse" class="nav-link">Ҳудудий бўлимлар</a>
+                    <ul class="nav collapse" id="demo1">
                         <li class="nav-item"><a href="#" class="nav-link" onclick="loc('City.html')">Қарши шаҳри</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Шаҳрисабз шаҳри</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Ғузор тумани</a></li>
@@ -123,22 +121,22 @@
                         <li class="nav-item"><a href="#" class="nav-link">Яккабоғ тумани</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link">Касбга ўқитиш</a>
-                    <ul class="nav">
+                <li class="nav-item"><a href="#demo2" data-toggle="collapse" class="nav-link">Касбга ўқитиш</a>
+                    <ul class="nav collapse" id="demo2">
                         <li class="nav-item"><a href="#" class="nav-link" onclick="loc('Mono.html')">“Ишга Марҳамат” Мономарказ</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">KOICA</a></li>
                         <li class="nav-item"><a href="#" class="nav-link" onclick="loc('profession.html')">Деҳқонобод тумани касб-ҳунарга ўқитиш маркази</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link">Матбуот маркази</a>
-                    <ul class="nav">
+                <li class="nav-item"><a href="#demo3" data-toggle="collapse" class="nav-link">Матбуот маркази</a>
+                    <ul class="nav collapse" id="demo3">
                         <li class="nav-item"><a href="#" class="nav-link" onclick="loc('news.html')">Янгиликлар</a></li>
                         <li class="nav-item"><a href="#" class="nav-link"onclick="loc('Fotogalereya.html')">Фотогалерия</a></li>
                         <li class="nav-item"><a href="#" class="nav-link" onclick="loc('video-gallery.html')">Видеогалерия</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link">Меъёрий-ҳуқуқий хужжатлар</a>
-                    <ul class="nav">
+                <li class="nav-item"><a href="#demo4" data-toggle="collapse" class="nav-link">Меъёрий-ҳуқуқий хужжатлар</a>
+                    <ul class="nav collapse" id="demo4">
                         <li class="nav-item"><a href="#" class="nav-link" onclick="loc('laws.html')">Ўзбекистон Республикаси қонунлари</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Ўзбекистон Республикаси Президенти Фармон ва Қарорлари</a></li>
                         <li class="nav-item"><a href="#" class="nav-link">Ўзбекистон Республикаси Вазирлар Маҳкамаси  Қарорлари</a></li>
@@ -154,7 +152,7 @@
                 <p>раҳбарият</p>
             </div>
         </div>
-        <div class="leader">
+        <div class="employee">
             <div class="container">
                 <div class="row w-100 m-0 flex-column">
                     <div class="col-12">
@@ -165,7 +163,7 @@
                                 </div>
                                 <div class="info">
                                     <p>Деҳқонобод касб-ҳунарга ўқитиш маркази Директори</p>
-                                    <div class="card-info d-flex align-items-center">
+                                    <div class="card-info d-flex">
                                         <div class="people-info">
                                             <div class="name d-flex align-items-center mb-4">
                                                 <img src="../assets/icons/skelet.svg" alt="error">
@@ -190,7 +188,7 @@
                                 </div>
                                 <div class="info">
                                     <p>Деҳқонобод касб-ҳунарга ўқитиш маркази Директори</p>
-                                    <div class="card-info d-flex align-items-center">
+                                    <div class="card-info d-flex">
                                         <div class="people-info">
                                             <div class="name d-flex align-items-center mb-4">
                                                 <img src="../assets/icons/skelet.svg" alt="error">
@@ -215,7 +213,7 @@
                                 </div>
                                 <div class="info">
                                     <p>Деҳқонобод касб-ҳунарга ўқитиш маркази Директори</p>
-                                    <div class="card-info d-flex align-items-center">
+                                    <div class="card-info d-flex">
                                         <div class="people-info">
                                             <div class="name d-flex align-items-center mb-4">
                                                 <img src="../assets/icons/skelet.svg" alt="error">

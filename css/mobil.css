@@ -1,4 +1,5 @@
 /********************navbar-menus**************************/
+
 @media (max-width: 576px) {
     body{
         padding: 0;
@@ -132,14 +133,14 @@
         /*position: relative;*/
     }
     .navbar .container .navbar-brand img{
-        width: 40px;
+        width: 55px;
     }
     .navbar .container .navbar-brand .text h5{
-        font-size: 10px;
+        font-size: 15px;
     }
     .navbar .container .navbar-brand .text h4{
-        font-size: 10px;
         margin-bottom: 10px;
+        font-size: 15px;
     }
     .navbar .container .btn{
         /*display: block!important;*/
@@ -395,6 +396,9 @@
     .container-fluid .skills .container .row .col-6 .card .card-body .skills-photo{
         width: 200px;
         height: 150px;
+        /*margin-right: auto;*/
+        /*margin-left: 9px;*/
+        margin-right: 10px;
     }
     .container-fluid .skills .container .row .col-6 .card .card-body .skills-info{
 
@@ -406,7 +410,7 @@
         font-size: 15px;
     }
     .container-fluid .skills .container .row .col-6 .card .card-body .skills-info{
-        padding: 25px;
+        padding: 10px 0;
     }
     .container-fluid .skills .container .row .col-6 .card .card-body .skills-info .people-name p{
         font-size: 12px;
@@ -494,7 +498,8 @@
     }
     .container-fluid .aside .container .row .col-4{
         max-width: 100%;
-        padding: 0 30px;
+        padding: 0;
+
 
     }
     .container-fluid .aside .container .row .col-4 .card{
@@ -763,12 +768,10 @@
 
     }
     .container-fluid .skills .container .row .col-6 .card .card-body .skills-info{
-        /*padding: 0 10px;*/
-        margin-left: 35px;
         margin-top: 20px;
     }
     .container-fluid .skills .container .skills-next{
-        margin-left: 50px;
+        margin-left: 23px;
     }
     .container-fluid .skills .container .skills-next p{
         font-size: 15px;
@@ -797,7 +800,7 @@
     }
     .container-fluid .News .container .row .col-7{
         max-width: 70%;
-        margin-left: auto;
+        /*margin-left: auto;*/
     }
     .container-fluid .News .container .row .col-7 img{
         width: 100%;
@@ -938,6 +941,7 @@
     }
     .container-fluid .skills .container .row .col-6 .card{
         background: transparent;
+        margin-bottom: 30px;
     }
     .container-fluid .skills .container .row .col-6 .card .card-body{
         flex-direction: column;
@@ -983,7 +987,7 @@
         transform: scale(1.2);
     }
     .container-fluid .News .container .row .col-5{
-        max-width: 30%;
+        max-width: 100%;
     }
     .container-fluid .News .container .row .col-5 img{
         width: 265px;
@@ -1007,6 +1011,9 @@
     .container-fluid .aside .container .row{
         margin: 0 15px;
     }
+    .container-fluid .aside .container .row .col-4 .card{
+        margin-bottom: 20px;
+    }
     .container-fluid .aside .container .row .col-4 .card .card-body p{
         font-size: 14px;
     }
@@ -1021,5 +1028,1450 @@
     }
 
 
+    .container-fluid .footer{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+    }
+    .container-fluid .footer .container .row{
+        margin: 0 15px;
+    }
+    .container-fluid .footer .container .row .card{
+        padding: 0;
+        width: 100%;
+        /*height: 100%;*/
+    }
+    .container-fluid .footer .container .row .col-4 .card .card-header{
+        padding: 5px;
+    }
+    .container-fluid .footer .container .row .col-4 .card .card-header .footer-text{
+        width: 100%;
+    }
+    .container-fluid .footer .container .row .col-4 .card .card-header .footer-text h5{
+        font-size: 12px;
+    }
+    .container-fluid .footer .container .row .col-4 .card .card-header .footer-text h4{
+        font-size: 12px;
+    }
+    .container-fluid .footer .container .row .col-4 .card .card-body{
+        padding: 0;
+        height: 100%;
+    }
+
+
+
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .container-fluid .main{
+        width: 100%;
+        height: 100%;
+    }
+    .container-fluid .main .main-content{
+        width: 100%;
+        background-position: center;
+        height: 640px;
+    }
+    .container-fluid .main .main-text{
+        top: 100px;
+        left: 100px;
+    }
 }
 /***********************index-end*******************/
+
+
+
+/***********************section***********************/
+@media screen and (max-width: 576px) {
+    .section{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .section .container-fluid .body{
+        width: 100%;
+        height: 100%;
+    }
+    .section .container-fluid .body .body-content{
+        width: 100%;
+        height: 101px;
+    }
+    .section .container-fluid .body .body-text p{
+        top: 50px;
+        left: 68px;
+        font-size: 10px;
+    }
+    .section .container-fluid .box .container .row{
+        flex-direction: column;
+        /*margin: 0 15px;*/
+        width: 100%;
+    }
+    .section .container-fluid .box .container .row .col-4{
+        max-width: 100%;
+    }
+    .section .container-fluid .box .container .row .col-4 .card .card-body{
+        padding: 0 20px;
+    }
+    .section .container-fluid .box .container .row .col-4 .card .card-body .city-photo{
+        width: 100%;
+    }
+    .section .container-fluid .box .container .row .col-4 .card .card-body p{
+        width: 100%;
+    }
+
+}
+@media (max-width: 768px) and (min-width: 576px) {
+    .section .container-fluid .body .body-content{
+        width: 100%;
+        height: 128px;
+    }
+    .section .container-fluid .body .body-text p{
+        font-size: 18px;
+        top: 60px;
+        left: 125px;
+    }
+    .section .container-fluid .box .container .row{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .section .container-fluid .box .container .row .col-4{
+        min-width: 50%;
+
+    }
+    .section .container-fluid .box .container .row .col-4 .card{
+        width: 100%;
+    }
+    .section .container-fluid .box .container .row .col-4 .card .card-body .city-photo{
+        width: 100%;
+    }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .section .container-fluid .body{
+        width: 100%;
+        height: 100%;
+    }
+    .section .container-fluid .body .body-content{
+        width: 100%;
+        height: 165px;
+    }
+    .section .container-fluid .body .body-text p{
+        top: 90px;
+        left: 155px;
+    }
+    .section .container-fluid .box .container .row{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .section .container-fluid .box .container .row .col-4{
+        max-width: 50%;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .section .container-fluid .body{
+        width: 100%;
+        height: 100%;
+    }
+    .section .container-fluid .body .body-content{
+        width: 100%;
+        height: 196px;
+    }
+    .section .container-fluid .body .body-text p{
+        top: 115px;
+        left: 115px;
+    }
+    .section .container-fluid .box .container .row{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .section .container-fluid .box .container .row .col-4 .card .card-body .city-photo{
+        width: 100%;
+    }
+}
+/***********************section-end***********************/
+/*********************profession*************************/
+@media screen and (max-width: 576px) {
+    .profession{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .profession .container-fluid .body .body-content{
+        width: 100%;
+        height: 75px;
+    }
+    .profession .container-fluid .body .body-text p{
+        top: 40px;
+        left: 68px;
+        font-size: 10px;
+    }
+    .profession .container-fluid .skills{
+        width: 100%;
+        height: 100%;
+    }
+    .profession .container-fluid .skills .container .row{
+        width: 100%;
+        margin: 0;
+        padding: 0 30px;
+    }
+    .profession .container-fluid .skills .container .row .col-4{
+        max-width: 100%;
+        margin: 0;
+    }
+    .profession .container-fluid .skills .container .row .col-4 .card{
+        margin: 30px 0;
+    }
+    .profession .container-fluid .skills .container .row .col-4 .card .card-header img{
+        width: 100%;
+    }
+    .profession .container-fluid .skills .container .row .col-4 .card .card-body{
+        text-align: center;
+    }
+    .profession .container-fluid .skills .container .row .col-4 .card .card-body p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+    .profession .container-fluid .body .body-content{
+        width: 100%;
+        height: 120px;
+    }
+    .profession .container-fluid .body .body-text p{
+        top: 60px;
+        left: 100px;
+        font-size: 15px;
+    }
+    .profession .container-fluid .skills{
+        width: 100%;
+        height: 100%;
+    }
+    .profession .container-fluid .skills .container .row{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .profession .container-fluid .skills .container .row .col-4{
+        max-width: 70%;
+        margin: 30px auto;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .profession .container-fluid .body .body-content{
+        width: 100%;
+        height: 146px;
+
+    }
+    .profession .container-fluid .body .body-text p{
+        top: 90px;
+        left: 111px;
+        font-size: 18px;
+    }
+    .profession .container-fluid .skills{
+        width: 100%;
+        height: 100%;
+    }
+    .profession .container-fluid .skills .container .row{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .profession .container-fluid .skills .container .row .col-4{
+        min-width: 50%;
+        margin: 0 0;
+    }
+    .profession .container-fluid .skills .container .row .col-4 .card{
+        margin: 30px 0;
+    }
+    .profession .container-fluid .skills .container .row .col-4 .card .card-body{
+        text-align: center;
+        height: 100%;
+    }
+    .profession .container-fluid .skills .container .row .col-4 .card .card-body p{
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .profession .container-fluid .body .body-content{
+        height: 198px;
+    }
+    .profession .container-fluid .body .body-text p{
+        top: 110px;
+        left: 100px;
+    }
+    .profession .container-fluid .skills .container .row .col-4 .card .card-body p{
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+}
+@media (max-width: 1400px) and (min-width: 1200px) {
+    .profession .container-fluid .body .body-content{
+        height: 236px;
+    }
+    .profession .container-fluid .body .body-text p{
+        top: 140px;
+        left: 115px;
+    }
+}
+/*********************profession-end*************************/
+
+
+/*********************management*************************/
+@media screen and (max-width: 576px) {
+    .management{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .management .container-fluid .body .body-content{
+        width: 100%;
+        height: 82px;
+    }
+    .management .container-fluid .body .body-text p{
+        top: 40px;
+        left: 68px;
+        font-size: 10px;
+    }
+    .management .container-fluid .text{
+        width: 100%;
+        height: 100%;
+    }
+    .management .container-fluid .text .container p{
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: justify;
+        padding: 0 30px;
+    }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+    .management .container-fluid .body .body-content{
+        width: 100%;
+        height: 138px;
+
+    }
+    .management .container-fluid .body .body-text p{
+        top: 80px;
+        left: 128px;
+        font-size: 18px;
+    }
+    .management .container-fluid .text{
+        width: 100%;
+        height: 100%;
+    }
+    .management .container-fluid .text .container p{
+        font-size: 18px;
+        text-align: justify;
+        padding: 0 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .management .container-fluid .body .body-content{
+        width: 100%;
+        height: 159px;
+    }
+    .management .container-fluid .body .body-text p{
+        font-size: 18px;
+        top: 96px;
+        left: 105px;
+    }
+    .management .container-fluid .text .container p{
+        padding: 0 15px;
+        text-align: justify;
+    }
+
+}
+@media (max-width: 1400px) and (min-width: 1200px) {
+    .management .container-fluid .body{
+        width: 100%;
+        height: 100%;
+    }
+    .management .container-fluid .body .body-content{
+        width: 100%;
+        height: 222px;
+    }
+    .management .container-fluid .body .body-text p{
+        top: 126px;
+        left: 75px;
+    }
+    .management .container-fluid .text .container{
+        padding: 0 32px;
+    }
+    .management .container-fluid .text .container p{
+        font-size: 22px;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+}
+
+/*********************management-end*************************/
+
+
+/*********************activity*************************/
+@media screen and (max-width: 576px) {
+    .activity{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .activity .container-fluid .body .body-content{
+        width: 100%;
+        height: 82px;
+    }
+    .activity .container-fluid .body .body-text p{
+        top: 40px;
+        left: 68px;
+        font-size: 10px;
+    }
+    .activity .container-fluid .text{
+        width: 100%;
+        height: 100%;
+    }
+    .activity .container-fluid .text .container p{
+        font-size: 15px;
+        margin-top: 20px;
+        text-align: justify;
+        padding: 0 30px;
+    }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+    .activity .container-fluid .body .body-content{
+        width: 100%;
+        height: 129px;
+
+    }
+    .activity .container-fluid .body .body-text p{
+        top: 70px;
+        left: 128px;
+        font-size: 15px;
+    }
+    .activity .container-fluid .text{
+        width: 100%;
+        height: 100%;
+    }
+    .activity .container-fluid .text .container{
+        padding: 0 15px;
+    }
+    .activity .container-fluid .text .container p{
+        font-size: 16px;
+        text-align: justify;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    .activity .container-fluid .body .body-content{
+        width: 100%;
+        height: 167px;
+    }
+    .activity .container-fluid .body .body-text p{
+        top: 99px;
+        left: 124px;
+        font-size: 18px;
+    }
+    .activity .container-fluid .text .container{
+        padding: 0 15px;
+    }
+    .activity .container-fluid .text .container p{
+        font-size: 18px;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+
+    .activity .container-fluid .body .body-content{
+        width: 100%;
+        height: 212px;
+    }
+    .activity .container-fluid .body .body-text p{
+        top: 127px;
+        left: 127px;
+        font-size: 18px;
+    }
+    .activity .container-fluid .text .container{
+        padding: 0 15px;
+    }
+    .activity .container-fluid .text .container p{
+        font-size: 18px;
+        text-align: justify;
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+}
+@media (max-width: 1400px) and (min-width: 1200px) {
+    .activity .container-fluid .body{
+        width: 100%;
+        height: 100%;
+    }
+    .activity .container-fluid .body .body-content{
+        width: 100%;
+        height: 222px;
+    }
+    .activity .container-fluid .body .body-text p{
+        top: 126px;
+        left: 75px;
+    }
+    .activity .container-fluid .text .container{
+        padding: 0 32px;
+    }
+    .activity .container-fluid .text .container p{
+        font-size: 22px;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+}
+/*********************activity-end*************************/
+/*********************leadership*************************/
+@media screen and (max-width: 576px) {
+    .leadership{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .leadership .container-fluid .body .body-content{
+        width: 100%;
+        height: 95px;
+    }
+    .leadership .container-fluid .body .body-text p{
+        top: 55px;
+        left: 70px;
+        font-size: 15px;
+    }
+    .leadership .container-fluid .leader{
+        width: 100%;
+        height: 100%;
+    }
+    .leadership .container-fluid .leader .container .row{
+        width: 100%;
+        margin: 0;
+    }
+    .leadership .container-fluid .leader .container .row .col-12{
+        max-width: 100%;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card{
+        width: 100%;
+        height: 100%;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body{
+        flex-direction: column;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .men-photo{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info{
+        margin-left: 0;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info p{
+        font-size: 20px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info{
+        flex-direction: column;
+        text-align: left!important;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info{
+        min-width: 50%;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name img{
+        width: 18px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number{
+        margin-bottom: 20px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number img{
+        width: 18px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number p{
+        font-size: 14px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch{
+        margin-left: 0;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch img{
+        width: 18px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch p{
+        font-size: 14px;
+    }
+    .leadership .container-fluid .leader .container .row .line{
+        width: 100%;
+    }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+    .leadership .container-fluid .body .body-content{
+        width: 100%;
+        height: 138px;
+
+    }
+    .leadership .container-fluid .body .body-text p{
+        top: 84px;
+        left: 127px;
+        font-size: 18px;
+    }
+
+    .leadership .container-fluid .leader{
+        width: 100%;
+        height: 100%;
+    }
+    .leadership .container-fluid .leader .container .row{
+        margin: 0;
+        width: 100%;
+    }
+    .leadership .container-fluid .leader .container .row .col-12{
+        width: 100%;
+    }
+    .leadership .container-fluid .leader .container .row .line{
+        width: 350px;
+        margin: 0 auto ;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card{
+        width: 100%;
+        height: 100%;
+        margin: 10px 0;
+    }
+    .leadership .container-fluid .leader .container .row .card .card-body{
+        flex-direction: column;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .men-photo{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .men-photo img{
+        height: 110px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info{
+        margin: 0 auto;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info p{
+        font-size: 19px;
+        width: 264px;
+        margin: 20px 0;
+
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info{
+        flex-direction: column;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch img{
+        width: 22px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch p{
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name{
+        margin-bottom: 10px!important;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name img{
+        width: 22px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name p{
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number img{
+        width: 22px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number p{
+        font-size: 16px;
+        margin-top: 0;
+    }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .leadership .container-fluid .body{
+        width: 100%;
+        height: 100%;
+    }
+    .leadership .container-fluid .body .body-content{
+        width: 100%;
+        height: 149px;
+    }
+    .leadership .container-fluid .body .body-text p{
+        top: 85px;
+        left: 103px;
+        font-size: 18px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12{
+        width: 100%;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card{
+        width: 100%;
+        height: 100%;
+        margin: 20px 0;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .men-photo{
+        min-width: 30%;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info{
+        margin-left: 20px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info{
+        flex-direction: column;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name{
+        margin-bottom: 10px!important;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name img{
+        width: 20px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name p{
+        font-size: 15px;
+        width: 100%;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number img{
+        width: 20px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number p{
+        font-size: 15px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch img{
+        width: 24px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch p{
+        width: 100%;
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .leadership .container-fluid .body .body-content{
+        width: 100%;
+        height: 193px;
+    }
+    .leadership .container-fluid .body .body-text p{
+        top: 117px;
+        left: 101px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info{
+        margin-left: 30px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch img{
+        margin-bottom: 54px;
+    }
+    .leadership .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch p{
+        /*margin-bottom: 0;*/
+    }
+}
+
+/*********************leadership-end*************************/
+/*********************employees*************************/
+@media screen and (max-width: 576px) {
+    .employees{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .employees .container-fluid .body .body-content{
+        width: 100%;
+        height: 95px;
+    }
+    .employees .container-fluid .body .body-text p{
+        top: 55px;
+        left: 70px;
+        font-size: 15px;
+    }
+    .employees .container-fluid .employee{
+        width: 100%;
+        height: 100%;
+    }
+    .employees .container-fluid .employee .container .row{
+        width: 100%;
+        margin: 0;
+    }
+    .employees .container-fluid .employee .container .row .col-12{
+        max-width: 100%;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card{
+        width: 100%;
+        height: 100%;
+        margin: 20px 0 ;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body{
+        flex-direction: column;
+        padding: 0 30px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .men-photo{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info{
+        margin-left: 0;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info p{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info{
+        flex-direction: column;
+        text-align: left!important;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info{
+        min-width: 50%;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .name{
+        margin-bottom: 10px!important;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .name img{
+        width: 18px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .name p{
+        font-size: 14px;
+        width: 100%;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number{
+        margin-bottom: 20px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number img{
+        width: 18px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+    .employees .container-fluid .body .body-content{
+        width: 100%;
+        height: 138px;
+
+    }
+    .employees .container-fluid .body .body-text p{
+        top: 84px;
+        left: 127px;
+        font-size: 18px;
+    }
+
+    .employees .container-fluid .employeer{
+        width: 100%;
+        height: 100%;
+    }
+    .employees .container-fluid .employee .container .row{
+        margin: 0;
+        width: 100%;
+    }
+    .employees .container-fluid .employee .container .row .col-12{
+        width: 100%;
+    }
+    .employees .container-fluid .employee .container .row .line{
+        width: 350px;
+        margin: 0 auto ;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card{
+        width: 100%;
+        height: 100%;
+        margin: 10px 0;
+    }
+    .employees .container-fluid .employee .container .row .card .card-body{
+        flex-direction: column;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .men-photo{
+        width: 300px;
+        margin: 0 auto;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .men-photo img{
+        height: 110px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info{
+        margin: 0 auto;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info p{
+        font-size: 19px;
+        width: 264px;
+        margin: 20px 0;
+
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info{
+        flex-direction: column;
+    }
+
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .name{
+        margin-bottom: 10px!important;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .name img{
+        width: 22px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .name p{
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number img{
+        width: 22px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number p{
+        font-size: 16px;
+        margin-top: 0;
+    }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .employees .container-fluid .body{
+        width: 100%;
+        height: 100%;
+    }
+    .employees .container-fluid .body .body-content{
+        width: 100%;
+        height: 149px;
+    }
+    .employees .container-fluid .body .body-text p{
+        top: 85px;
+        left: 103px;
+        font-size: 18px;
+    }
+    .employees .container-fluid .employee .container .row .col-12{
+        width: 100%;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card{
+        width: 100%;
+        height: 100%;
+        margin: 20px 0;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .men-photo{
+        min-width: 30%;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info{
+        margin-left: 20px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info{
+        flex-direction: column;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .name{
+        margin-bottom: 10px!important;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .name img{
+        width: 20px!important;
+        height: 20px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .name p{
+        font-size: 15px;
+        width: 100%;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number img{
+        width: 20px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number p{
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 1200px) and (min-width: 992px)   {
+    .employees .container-fluid .body .body-content{
+        width: 100%;
+        height: 183px;
+    }
+    .employees .container-fluid .body .body-text p{
+        font-size: 22px;
+        top: 110px;
+        left: 130px;
+    }
+    .employees .container-fluid .employee .container .row{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card{
+        margin: 25px 0;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info{
+        margin-left: 40px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info p{
+        margin-bottom: 30px;
+    }
+    .employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .name{
+        margin-bottom: 20px!important;
+    }
+
+}
+/*********************employees-end*************************/
+
+
+
+/*********************information*************************/
+@media screen and (max-width: 576px) {
+    .information{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .information .container-fluid .body .body-content{
+        width: 100%;
+        height: 103px;
+    }
+    .information .container-fluid .body .body-text p{
+        top: 58px;
+        left: 35px;
+        font-size: 15px;
+    }
+    .information .container-fluid .skills .container .row{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+    .information .container-fluid .skills .container .row .col-12{
+        width: 100%;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card{
+        margin: 20px 0 0 0;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .date{
+        margin-bottom: 10px;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .date img{
+        width: 18px;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .date p{
+        font-size: 15px;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body h6{
+        font-size: 15px;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .download{
+        margin: 10px 0 0 0;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .download img{
+        width: 18px;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .download p{
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 768px) and (min-width: 576px) {
+    .information .container-fluid .body .body-content{
+        width: 100%;
+        height: 123px;
+    }
+    .information .container-fluid .body .body-text p{
+        top: 65px;
+        left: 90px;
+        font-size: 17px;
+    }
+    .information .container-fluid .skills .container .row{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card{
+        margin: 20px 0 0 0;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .date{
+        margin-bottom: 15px;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .date img{
+        width: 20px;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .date p{
+        font-size: 16px;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body h6{
+        font-size: 16px;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .download{
+        margin-top: 15px;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .download img{
+        width: 20px;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .download p{
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .information .container-fluid .body{
+        width: 100%;
+        height: 100%;
+    }
+    .information .container-fluid .body .body-content{
+        width: 100%;
+        height: 143px;
+    }
+    .information .container-fluid .body .body-text p{
+        top: 78px;
+        left: 67px;
+        font-size: 16px;
+    }
+    .information .container-fluid .skills .container .row{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card{
+        margin-top: 20px;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body h6{
+        font-size: 18px;
+    }
+
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .download{
+        margin-top: 15px;
+    }
+    .information .container-fluid .skills .container .row .col-12 .card .card-body .date{
+        margin-bottom: 15px;
+    }
+
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .information .container-fluid .body .body-content{
+        width: 100%;
+        height: 216px;
+    }
+    .information .container-fluid .body .body-text p{
+        top: 117px;
+        left: 157px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 1400px) and (min-width: 1200px) {
+    .information .container-fluid .body .body-content{
+        width: 100%;
+        height: 232px;
+    }
+    .information .container-fluid .body .body-text p{
+        top: 127px;
+        left: 100px;
+        font-size: 22px;
+    }
+}
+
+/*********************information-end*************************/
+/*********************laws*************************/
+@media screen and (max-width: 576px) {
+    .laws{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .laws .container-fluid .body .body-content{
+        width: 100%;
+        height: 103px;
+    }
+    .laws .container-fluid .body .body-text p{
+        top: 58px;
+        left: 35px;
+        font-size: 15px;
+    }
+    .laws .container-fluid .skills .container .row{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+    .laws .container-fluid .skills .container .row .col-12{
+        width: 100%;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card{
+        margin: 20px 0 0 0;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .date{
+        margin-bottom: 10px;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .date img{
+        width: 18px;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .date p{
+        font-size: 15px;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body h6{
+        font-size: 15px;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .download{
+        margin: 10px 0 0 0;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .download img{
+        width: 18px;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .download p{
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 768px) and (min-width: 576px) {
+    .laws .container-fluid .body .body-content{
+        width: 100%;
+        height: 123px;
+    }
+    .laws .container-fluid .body .body-text p{
+        top: 65px;
+        left: 90px;
+        font-size: 17px;
+    }
+    .laws .container-fluid .skills .container .row{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card{
+        margin: 20px 0 0 0;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .date{
+        margin-bottom: 15px;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .date img{
+        width: 20px;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .date p{
+        font-size: 16px;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body h6{
+        font-size: 16px;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .download{
+        margin-top: 15px;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .download img{
+        width: 20px;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .download p{
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .laws .container-fluid .body{
+        width: 100%;
+        height: 100%;
+    }
+    .laws .container-fluid .body .body-content{
+        width: 100%;
+        height: 143px;
+    }
+    .laws .container-fluid .body .body-text p{
+        top: 78px;
+        left: 67px;
+        font-size: 16px;
+    }
+    .laws .container-fluid .skills .container .row{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card{
+        margin-top: 20px;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body h6{
+        font-size: 18px;
+    }
+
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .download{
+        margin-top: 15px;
+    }
+    .laws .container-fluid .skills .container .row .col-12 .card .card-body .date{
+        margin-bottom: 15px;
+    }
+
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .laws .container-fluid .body .body-content{
+        width: 100%;
+        height: 216px;
+    }
+    .laws .container-fluid .body .body-text p{
+        top: 117px;
+        left: 157px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 1400px) and (min-width: 1200px) {
+    .laws .container-fluid .body .body-content{
+        width: 100%;
+        height: 232px;
+    }
+    .laws .container-fluid .body .body-text p{
+        top: 127px;
+        left: 100px;
+        font-size: 22px;
+    }
+}
+/*********************laws-end*************************/
+
+/*********************ministry*************************/
+@media screen and (max-width: 576px) {
+    .ministry{
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .ministry .container-fluid .body .body-content{
+        width: 100%;
+        height: 103px;
+    }
+    .ministry .container-fluid .body .body-text p{
+        top: 35px;
+        left: 35px;
+        font-size: 10px;
+        width: 207px;
+    }
+    .ministry .container-fluid .skills .container .row{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+
+    }
+    .ministry .container-fluid .skills .container .row .col-12{
+        width: 100%;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card{
+        margin: 20px 0 0 0;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .date{
+        margin-bottom: 10px;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .date img{
+        width: 18px;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .date p{
+        font-size: 15px;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body h6{
+        font-size: 15px;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .download{
+        margin: 10px 0 0 0;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .download img{
+        width: 18px;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .download p{
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 768px) and (min-width: 576px) {
+    .ministry .container-fluid .body .body-content{
+        width: 100%;
+        height: 123px;
+    }
+    .ministry .container-fluid .body .body-text p{
+        top: 45px;
+        left: 90px;
+        font-size: 13px;
+        width: 266px;
+    }
+    .ministry .container-fluid .skills .container .row{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card{
+        margin: 20px 0 0 0;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .date{
+        margin-bottom: 15px;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .date img{
+        width: 20px;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .date p{
+        font-size: 16px;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body h6{
+        font-size: 16px;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .download{
+        margin-top: 15px;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .download img{
+        width: 20px;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .download p{
+        font-size: 16px;
+    }
+
+}
+@media (max-width: 992px) and (min-width: 768px) {
+    .ministry .container-fluid .body{
+        width: 100%;
+        height: 100%;
+    }
+    .ministry .container-fluid .body .body-content{
+        width: 100%;
+        height: 143px;
+    }
+    .ministry .container-fluid .body .body-text p{
+        top: 45px;
+        left: 73px;
+        font-size: 14px;
+        width: 311px;
+    }
+    .ministry .container-fluid .skills .container .row{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card{
+        margin-top: 20px;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body h6{
+        font-size: 18px;
+    }
+
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .download{
+        margin-top: 15px;
+    }
+    .ministry .container-fluid .skills .container .row .col-12 .card .card-body .date{
+        margin-bottom: 15px;
+    }
+
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+    .ministry .container-fluid .body .body-content{
+        width: 100%;
+        height: 216px;
+    }
+    .ministry .container-fluid .body .body-text p{
+        top: 80px;
+        left: 145px;
+        font-size: 18px;
+        width: 370px;
+    }
+}
+@media (max-width: 1400px) and (min-width: 1200px) {
+    .ministry .container-fluid .body .body-content{
+        width: 100%;
+        height: 232px;
+    }
+    .ministry .container-fluid .body .body-text p{
+        top: 77px;
+        left: 100px;
+        font-size: 22px;
+    }
+}
+/*********************ministry-end*************************/

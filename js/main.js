@@ -40,15 +40,15 @@ function locatt(text) {
 }
 
 
-let menu1 = document.getElementById("menu1");
-console.log(menu1);
-function menubar() {
-    if (menu1 !== ""){
-        menu1 = true
-    }else if (menu1) {
-        menu1 = false
-    }
-}
+// let menu1 = document.getElementById("menu1");
+// console.log(menu1);
+// function menubar() {
+//     if (menu1 !== ""){
+//         menu1 = true
+//     }else if (menu1) {
+//         menu1 = false
+//     }
+// }
 
 
 function loc(text2) {
@@ -59,10 +59,20 @@ function loc(text2) {
 }
 // ;console.log(locate);
 
-ymaps.ready(init)
-function init() {
-    let map = new ymaps.Map('map', {
-        center: [38.8494135289684, 65.2688775291336],
-        zoom: 15
-    });
-}
+// ymaps.ready(init)
+// function init() {
+//     let map = new ymaps.Map('map', {
+//         center: [38.8494135289684, 65.2688775291336],
+//         zoom: 15
+//     });
+// }
+
+
+
+
+
+//
+// const stingNumber = ["1", "2", 'abc', '10000'];
+//
+// const number = stingNumber.map(Number);
+// console.log(number);

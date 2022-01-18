@@ -234,7 +234,7 @@ body{
 }
 .container-fluid .skills .container .row .col-6 .card .card-body{
     display: flex;
-    /*align-items: center;*/
+    align-items: center;
     padding: 5px;
 }
 .container-fluid .skills .container .row .col-6 .card .card-body .skills-photo{
@@ -244,7 +244,7 @@ body{
     border-radius: 16px;
 }
 .container-fluid .skills .container .row .col-6 .card .card-body .skills-info{
-    margin-left: 20px;
+    /*margin-left: 20px;*/
 }
 .container-fluid .skills .container .row .col-6 .card .card-body .skills-info .skills-contact{
     margin-bottom: 20px;
@@ -1057,11 +1057,11 @@ body{
     top: 198px;
     left: 260px;
 }
-.employees .container-fluid .leader .container .row .col-12 .card{
+.employees .container-fluid .employee .container .row .col-12 .card{
     width: 100%;
     margin: 56px 0 52px;
 }
-.employees .container-fluid .leader .container .row .col-12 .card .card-body .men-photo{
+.employees .container-fluid .employee .container .row .col-12 .card .card-body .men-photo{
     background: linear-gradient(172.51deg, #E6E6E6 -19.12%, #FDFDFD 124.44%);
     border-radius: 16px;
     width: 200px;
@@ -1070,14 +1070,14 @@ body{
     align-items: center;
     justify-content: center;
 }
-.employees .container-fluid .leader .container .row .col-12 .card .card-body .men-photo img{
+.employees .container-fluid employee .container .row .col-12 .card .card-body .men-photo img{
     width: 100px;
     height: 100px;
 }
-.employees .container-fluid .leader .container .row .col-12 .card .card-body .info{
+.employees .container-fluid .employee .container .row .col-12 .card .card-body .info{
     margin-left: 82px;
 }
-.employees .container-fluid .leader .container .row .col-12 .card .card-body .info p{
+.employees .container-fluid .employee .container .row .col-12 .card .card-body .info p{
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -1087,14 +1087,14 @@ body{
     color: #51596A;
     margin-bottom: 40px;
 }
-.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name{
+.employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .name{
     margin-bottom: 40px!important;
 }
-.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name img{
+.employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .name img{
     width: 25px;
     height: 25px;
 }
-.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .name p{
+.employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .name p{
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -1107,11 +1107,11 @@ body{
     margin-bottom: 0;
     margin-left: 10px;
 }
-.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number img{
+.employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number img{
     width: 25px;
     height: 25px;
 }
-.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number p{
+.employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .people-info .tel-number p{
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -1124,14 +1124,14 @@ body{
     margin-bottom: 0;
     margin-left: 10px;
 }
-.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch{
+.employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .watch{
     margin-left: 100px;
 }
-.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch img{
+.employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .watch img{
     width: 25px;
     height: 25px;
 }
-.employees .container-fluid .leader .container .row .col-12 .card .card-body .info .card-info .watch p{
+.employees .container-fluid .employee .container .row .col-12 .card .card-body .info .card-info .watch p{
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
@@ -1143,7 +1143,7 @@ body{
     width: 230px;
     margin-left: 10px;
 }
-.employees .container-fluid .leader .container .row .line{
+.employees .container-fluid .employee .container .row .line{
     width: 100%;
     border: 0.5px solid rgba(0, 0, 0, 0.7);
 }
