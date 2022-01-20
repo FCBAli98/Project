@@ -39,6 +39,12 @@ function locatt(text) {
     }
 }
 
+function loc(text2) {
+    console.log(text2);
+    if (text2) {
+        location.assign(text2)
+    }
+}
 
 // let menu1 = document.getElementById("menu1");
 // console.log(menu1);
@@ -49,25 +55,7 @@ function locatt(text) {
 //         menu1 = false
 //     }
 // }
-
-
-function loc(text2) {
-    console.log(text2);
-    if (text2) {
-        location.assign(text2)
-    }
-}
-// ;console.log(locate);
-
-// ymaps.ready(init)
-// function init() {
-//     let map = new ymaps.Map('map', {
-//         center: [38.8494135289684, 65.2688775291336],
-//         zoom: 15
-//     });
-// }
-
-
+``
 
 
 
@@ -76,3 +64,9 @@ function loc(text2) {
 //
 // const number = stingNumber.map(Number);
 // console.log(number);
+
+
+
+// carousel
+
+

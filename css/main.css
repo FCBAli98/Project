@@ -14,7 +14,8 @@ body{
 }
 .container-fluid .navbar .container{
     width: 100%;
-    padding: 10px;
+    /*padding: 10px;*/
+    /*padding: 0;*/
 }
 .navbar .container .navbar-brand{
     display: flex;
@@ -90,6 +91,7 @@ body{
 .container-fluid .menus .container{
     width: 100%;
     height: 100%;
+    /*padding: 0;*/
 }
 .container-fluid .menus .container .nav{
     align-content: center;
@@ -141,6 +143,23 @@ body{
     color: #FFFFFF;
 }
 /************menus-end***********************/
+/************body***********************/
+.container-fluid .body{
+    width: 100%;
+    height: 100%;
+
+}
+.container-fluid .body-content{
+    width: 100%;
+    height: 350px;
+    background-image: url("../assets/images/samar.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+/************body-end***********************/
 /****************main********************/
 .container-fluid .main{
     position: relative;
@@ -244,7 +263,7 @@ body{
     border-radius: 16px;
 }
 .container-fluid .skills .container .row .col-6 .card .card-body .skills-info{
-    /*margin-left: 20px;*/
+    margin-left: 20px;
 }
 .container-fluid .skills .container .row .col-6 .card .card-body .skills-info .skills-contact{
     margin-bottom: 20px;
@@ -620,7 +639,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.section .container-fluid .body .body-text p{
+.section .container-fluid .body .container .body-text p{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -650,6 +669,9 @@ body{
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.section .container-fluid .box .container .row .col-4 .card .card-body{
+    padding: 0;
 }
 .section .container-fluid .box .container .row .col-4 .card .card-body .city-photo{
     width: 300px;
@@ -1744,18 +1766,21 @@ margin-left: 10px;
     padding: 0;
     margin: 0;
 }
-.video-gallery .container-fluid .body{
-    position: relative;
-}
-.video-gallery .container-fluid .body .body-content{
+.video-gallery .container-fluid .body-content{
     width: 100%;
     height: 350px;
     background-image: url("../assets/images/samar.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.2;
+    /*opacity: 0.2;*/
 }
-.video-gallery .container-fluid .body .body-text p{
+.video-gallery .container-fluid .body-content .container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 999;
+}
+.video-gallery .container-fluid .body-content .container .body-text p{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -1766,11 +1791,15 @@ margin-left: 10px;
     color: #51596A;
     position: absolute;
     top: 198px;
-    left: 260px;
-    width: 500px;
+    z-index: 999;
+    /*left: 260px;*/
+    /*width: 500px;*/
 }
-.video-gallery.container-fluid .galereya .container .row{
-    padding: 0 15px;
+.video-gallery .container-fluid .galereya .container{
+    padding: 0;
+}
+.video-gallery .container-fluid .galereya .container .row{
+    /*padding: 0 15px;*/
     margin: 0;
 }
 .video-gallery .container-fluid .galereya .container .row .col-4 .card{
@@ -1781,19 +1810,15 @@ margin-left: 10px;
     height: 100%;
     padding: 0;
 }
-.video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body .video{
-    position: relative;
-}
-.video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body .video .play{
-    position: absolute;
-    z-index: 999;
-    width: 100px;
-    height: 100px;
+.video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body .video video {
+    border-radius: 14.7768px;
+    width: 100%;
+    height: 100%;
 }
 .video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body img{
     width: 100%;
 }
-.Foto-galereya .container-fluid .galereya .container .row .col-4 .card .card-body .date{
+.video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body .date{
     margin-top: 10px;
 }
 .video-gallery .container-fluid .galereya .container .row .col-4 .card .card-body .date img{
@@ -2515,4 +2540,25 @@ margin-left: 10px;
 
 
 /****************mono-end********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
